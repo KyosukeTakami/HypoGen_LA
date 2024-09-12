@@ -61,7 +61,7 @@ To fine-tune your model with this dataset, follow these steps:
    #
    ft_data = []
 
-    with open("json_data_hypo_GPT-4o.json") as f:
+    with open("ExtractedHypoLA.json") as f:
         data = json.load(f)
         for i in range(len(data)):
             if "keywords" in data[i] and "GenHypo" in data[i]:
@@ -73,7 +73,7 @@ To fine-tune your model with this dataset, follow these steps:
             
                 a_entry = {}
                 a_entry["role"] = "assistant"
-                a_entry["content"] = data[i]["GenHypo"]
+                a_entry["content"] = data[i]["ExtractedHypo"]
     
                 msgs["messages"].append(q_entry)
                 msgs["messages"].append(a_entry)
@@ -81,7 +81,7 @@ To fine-tune your model with this dataset, follow these steps:
             else:
                 print(f"Warning: 'keywords' or 'GenHypo' not found in entry {i}. Skipping this entry.")
     
-    with jsonlines.open("ftdata_chatgpt4o.jsonl", "w") as writer:
+    with jsonlines.open("ftdata_HypoLA.jsonl", "w") as writer:
         writer.write_all(ft_data)
    
        # Configuration OpenAI API key configuration
@@ -92,12 +92,10 @@ To fine-tune your model with this dataset, follow these steps:
     )
     
     client.files.create(
-      file=open("/path_to_prepared_dataset/ftdata_chatgpt4o.jsonl", "rb"),
+      file=open("/path_to_prepared_dataset/ftdata_HypoLA.jsonl", "rb"),
       purpose="fine-tune"
     )
 
-   # Load the dataset
-   df = pd.read_csv('path_to_dataset.csv')
 
    # Your OpenAI API key
    openai.api_key = 'your_api_key'
@@ -108,11 +106,11 @@ To fine-tune your model with this dataset, follow these steps:
     )
     
     client.fine_tuning.jobs.create(
-      training_file="file-KeGB8R1bHTenr70SxEeTpX1X", 
-      #model="gpt-3.5-turbo-0125"
+      training_file="your-file-XXXXXXXXXXXXXXXXXXXXXXXX", 
       #model = "gpt-4o-2024-08-06"
       #model = "gpt-4o-mini-2024-07-18"
-      model = "gpt-4-0613"
+      #model = "gpt-4-0613"
+      #model="gpt-3.5-turbo-0125"
     )
 
   

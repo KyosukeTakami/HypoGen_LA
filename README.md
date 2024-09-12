@@ -4,7 +4,7 @@ Here's a sample introductory page for your GitHub repository:
 
 ---
 
-# Fine-Tuning Dataset for Learning Analystics Hypothesis
+# Fine-Tuning Dataset for Hypothesis Generation in Learning Analystics
 
 ## Overview
 

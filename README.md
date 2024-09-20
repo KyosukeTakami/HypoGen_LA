@@ -1,8 +1,6 @@
 # HypoGen_LA
 
-Here's a sample introductory page for your GitHub repository:
 
----
 
 # Fine-Tuning Dataset for Hypothesis Generation in Learning Analystics
 
@@ -131,5 +129,3 @@ We welcome contributions from the community! If you have suggestions, improvemen
 This repository is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
-
-Feel free to adapt this page to fit your specific project needs!

@@ -10,7 +10,7 @@ Welcome to the official repository for our fine-tuning dataset and code for Larg
 
 This repository includes:
 
-- A **publicly available dataset** designed for fine-tuning purposes.
+- A **publicly available dataset** designed for fine-tuning purposes to researchers.
 - **Sample code** for fine-tuning LLMs using the ChatGPT API.
 - Documentation on how to utilize the dataset and implement fine-tuning with ease.
 
@@ -124,8 +124,16 @@ We welcome contributions from the community! If you have suggestions, improvemen
 
 **Disclaimer**: Please make sure to follow OpenAI’s fine-tuning guidelines and respect ethical AI practices when using the provided dataset and code.
 
-## License
+## License and Terms of Use
 
-This repository is licensed under the MIT License. See the `LICENSE` file for more details.
+This dataset is provided for academic and non-commercial research purposes only, particularly for research in artificial intelligence, education, and related fields.
+
+Commercial use is strictly prohibited.
+
+Redistribution or modification is allowed for non-commercial academic research, provided appropriate attribution is given.
+
+By using this dataset, you agree to these terms.
+
+If you are interested in commercial use or redistribution beyond academic purposes, please contact the authors for permission.
 
 ---

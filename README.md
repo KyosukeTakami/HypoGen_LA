@@ -130,10 +130,15 @@ This dataset is provided for academic and non-commercial research purposes only,
 
 Commercial use is strictly prohibited.
 
-Redistribution or modification is allowed for non-commercial academic research, provided appropriate attribution is given.
+Redistribution or modification is allowed for non-commercial academic research, **provided that appropriate attribution and citation are given**. In particular:
+
+- If you redistribute the dataset (in whole or in part), adapt it, or include it in a derivative dataset,  
+  you must clearly acknowledge the original “HypoGen_LA” dataset in your documentation.
+- If you use the dataset in a publication, you must cite the associated paper and/or this repository  
+  (e.g., by citing the “HypoGen_LA: Fine-Tuning Dataset for Hypothesis Generation in Learning Analytics” dataset and its authors).
 
 By using this dataset, you agree to these terms.
 
-If you are interested in commercial use or redistribution beyond academic purposes, please contact the authors for permission.
+Please note that the authors reserve the right to update, restrict access to, or withdraw this repository and its contents at any time, for example in response to copyright, contractual, institutional, or ethical considerations. Users who depend on this dataset for their research are encouraged to keep a local copy that complies with these terms.
 
 ---

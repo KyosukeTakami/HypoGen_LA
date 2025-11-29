@@ -2,7 +2,7 @@
 
 
 
-# Fine-Tuning Dataset for Hypothesis Generation in Learning Analystics
+# Fine-Tuning Dataset for Hypothesis Generation in Learning Analytics
 
 ## Overview
 

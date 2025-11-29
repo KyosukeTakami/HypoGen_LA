@@ -126,7 +126,7 @@ We welcome contributions from the community! If you have suggestions, improvemen
 
 ## License and Terms of Use
 
-This dataset is provided for academic and non-commercial research purposes only, particularly for research in artificial intelligence, education, and related fields.
+This dataset is provided for academic and non-commercial research purposes only, particularly for research in artificial intelligence, Learning Analytics, and related fields.
 
 Commercial use is strictly prohibited.
 

@@ -144,7 +144,7 @@ By using this dataset, you agree to these terms.
 Please note that the authors reserve the right to update, restrict access to, or withdraw this repository and its contents at any time, for example in response to copyright, contractual, institutional, or ethical considerations. Users who depend on this dataset for their research are encouraged to keep a local copy that complies with these terms.
 
 ---
-## Human evaluation data (Takami, Majumdar & Flanagan, IEEE Access 2026)
+## Human evaluation data
 
 This repository distributes the HypoGen_LA hypothesis-generation and fine-tuning dataset. It does not contain the participant-level human evaluation records (495 pairwise judgments by 5 learning-analytics experts and 6 K-12 practitioners) analysed in the paper. Because the evaluation involved a small number of participants, these records are not distributed publicly.
 De-identified data necessary to reproduce the reported human-evaluation analyses (item-level A/B choices, difficulty flags, criteria selections, and the A/B model-pair mapping) may be made available by the corresponding author upon reasonable request, subject to the applicable participant-consent, research-ethics, and data-protection requirements. 
